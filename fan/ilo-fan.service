@@ -1,0 +1,9 @@
+[Unit]
+Description=Run SSH script to turn down iLO fan
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=/gen8-toolbox/fan/systemd_env
+ExecStart=/gen8-toolbox/fan/set_fan.sh

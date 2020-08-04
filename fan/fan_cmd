@@ -1,0 +1,26 @@
+# pci-e slot 1-6 sensors
+fan pid 33 lo 3500
+fan pid 34 lo 3500
+fan pid 35 lo 3500
+fan pid 36 lo 3500
+fan pid 37 lo 3500
+fan pid 38 lo 3500
+
+# unknown pci-e slot 1 sensors
+fan pid 52 lo 3500
+fan pid 53 lo 3500
+# unknown pci-e slot 2 sensors
+fan pid 54 lo 3500
+fan pid 55 lo 3500
+# unknown pci-e slot 3 sensors
+fan pid 56 lo 3500
+fan pid 57 lo 3500
+# unknown pci-e slot 4 sensors
+fan pid 58 lo 3500
+fan pid 59 lo 3500
+# unknown pci-e slot 5 sensors
+fan pid 60 lo 3500
+fan pid 61 lo 3500
+# unknown pci-e slot 6 sensors
+fan pid 62 lo 3500
+fan pid 63 lo 3500
