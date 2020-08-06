@@ -24,3 +24,9 @@ fan pid 61 lo 3500
 # unknown pci-e slot 6 sensors
 fan pid 62 lo 3500
 fan pid 63 lo 3500
+
+# HD controller (p420i raid controller)
+fan pid 47 lo 3500
+
+# add an offset to sensor 0 (inlet ambient temperature) to further reduce minimal fan speed
+fan t 0 adj -20
