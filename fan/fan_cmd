@@ -9,24 +9,40 @@ fan pid 38 lo 3500
 # unknown pci-e slot 1 sensors
 fan pid 52 lo 3500
 fan pid 53 lo 3500
+# change setpoint from 35 to 40
+fan pid 53 sp 4000
 # unknown pci-e slot 2 sensors
 fan pid 54 lo 3500
 fan pid 55 lo 3500
+# change setpoint from 35 to 40
+fan pid 55 sp 4000
 # unknown pci-e slot 3 sensors
 fan pid 56 lo 3500
 fan pid 57 lo 3500
+# change setpoint from 35 to 40
+fan pid 57 sp 4000
 # unknown pci-e slot 4 sensors
 fan pid 58 lo 3500
 fan pid 59 lo 3500
+# change setpoint from 35 to 40
+fan pid 59 sp 4000
 # unknown pci-e slot 5 sensors
 fan pid 60 lo 3500
 fan pid 61 lo 3500
+# change setpoint from 35 to 40
+fan pid 61 sp 4000
 # unknown pci-e slot 6 sensors
 fan pid 62 lo 3500
 fan pid 63 lo 3500
+# change setpoint from 35 to 40
+fan pid 63 sp 4000
 
 # HD controller (p420i raid controller)
 fan pid 47 lo 3500
 
 # add an offset to sensor 0 (inlet ambient temperature) to further reduce minimal fan speed
 fan t 0 adj -20
+
+# Set minimal speed of fan0/1 to keep PSU temp low
+fan p 0 min 60
+fan p 1 min 60
