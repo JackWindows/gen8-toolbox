@@ -44,5 +44,5 @@ fan pid 47 lo 3500
 fan t 0 adj -20
 
 # Set minimal speed of fan0/1 to keep PSU temp low
-fan p 0 min 60
-fan p 1 min 60
+fan p 0 min 50
+fan p 1 min 50
