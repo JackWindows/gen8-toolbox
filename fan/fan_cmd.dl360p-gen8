@@ -3,7 +3,8 @@ fan pid 32 lo 3500
 # 34-PCI 1 Zone
 fan pid 33 lo 3500
 # 36-PCI 2 Zone
-fan pid 35 sp 5000 lo 3500
+fan pid 35 sp 5000
+fan pid 35 lo 3500
 
 # add an offset to sensor 0 (inlet ambient temperature) to further reduce minimal fan speed
 fan t 0 adj -5
