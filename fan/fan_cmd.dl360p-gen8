@@ -1,0 +1,17 @@
+# 33-PCI 1 Zone
+fan pid 32 lo 3500
+# 34-PCI 1 Zone
+fan pid 33 lo 3500
+# 36-PCI 2 Zone
+fan pid 35 sp 5000 lo 3500
+
+# add an offset to sensor 0 (inlet ambient temperature) to further reduce minimal fan speed
+fan t 0 adj -5
+
+# Set minimal speed of fan0/1 to keep PSU temp low
+fan p 0 min 60
+fan p 1 min 60
+
+# Set minimal speed of fan6/7 to keep HD conroller low
+fan p 6 min 60
+fan p 7 min 60
