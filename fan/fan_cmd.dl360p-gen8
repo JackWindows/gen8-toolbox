@@ -2,9 +2,23 @@
 fan pid 32 lo 3500
 # 34-PCI 1 Zone
 fan pid 33 lo 3500
+# 35-LOM Card
+fan pid 35 sp 5000
+fan pid 35 lo 3500
 # 36-PCI 2 Zone
-fan pid 36 sp 5000
 fan pid 36 lo 3500
+
+# Disable HD-controller sensor (due to non-OEM HDD/SSD?)
+fan t 31 off
+# 40-Sys Exhaust
+fan t 40 off
+# 42-SuperCAP Max
+fan t 42 off
+# Not sure what are 45/46/49/50
+fan t 45 off
+fan t 46 off
+fan t 49 off
+fan t 50 off
 
 # add an offset to sensor 0 (inlet ambient temperature) to further reduce minimal fan speed
 fan t 0 adj -5
